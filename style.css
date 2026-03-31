@@ -71,3 +71,29 @@ section {
 .card:hover {
     transform: scale(1.05);
 }
+/* Dark Mode */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark nav {
+    background: #000;
+}
+
+.dark .card {
+    background: #1e1e1e;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}

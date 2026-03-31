@@ -6,6 +6,18 @@
     <title>Sonia Ravish | AI Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js"></script>
+<!-- Chatbot Button -->
+<div id="chatbot-btn" onclick="toggleChat()">💬</div>
+
+<!-- Chat Window -->
+<div id="chatbot">
+    <div id="chat-header">Ask Me Anything</div>
+    <div id="chat-body"></div>
+    <input type="text" id="user-input" placeholder="Type a message..." onkeydown="handleKey(event)">
+</div>
+
+<script src="script.js"></script>
 <body>
 
 <!-- Navbar -->
@@ -16,6 +28,7 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+    <button onclick="toggleDarkMode()">🌙</button>
 </nav>
 
 <!-- Hero Section -->
